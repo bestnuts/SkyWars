@@ -1,0 +1,1 @@
+data modify storage skywars main.value.item.components set from entity @s SelectedItem.components

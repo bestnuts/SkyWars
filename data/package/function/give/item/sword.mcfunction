@@ -1,0 +1,1 @@
+give @s stone_sword[item_name='{"color":"white","text":"검"}',unbreakable={show_in_tooltip:false},attribute_modifiers={modifiers:[],show_in_tooltip:false},lore=['{"color":"yellow","italic":false,"text":"평범한 기본 검"}']] 1

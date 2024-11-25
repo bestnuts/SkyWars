@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand carrot_on_a_stick[custom_data~{WeaponID:0}] run function game:weapon/get-id

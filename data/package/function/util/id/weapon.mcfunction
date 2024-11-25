@@ -1,0 +1,1 @@
+return run scoreboard players add #id WeaponID 1

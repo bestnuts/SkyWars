@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[item_name='{"color":"white","text":"비유도 로켓"}',lore=['{"color":"yellow","italic":false,"text":"우클릭 시 바라보는 방향으로 로켓을 날립니다."}','{"color":"gold","italic":false,"text":"재장전 : 7초"}'],custom_data={WeaponID:0,Weapon:true}] 1
