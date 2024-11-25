@@ -12,3 +12,5 @@ scoreboard objectives add MatchedID dummy
 scoreboard objectives add WeaponID dummy
 scoreboard objectives add PlayerGameID dummy
 scoreboard objectives add ObjectID dummy
+
+scoreboard objectives add Action.used.carrot_on_a_stick used:carrot_on_a_stick

@@ -2,3 +2,4 @@ execute as @a unless score @s PlayerID = @s PlayerID store result score @s Playe
 data remove storage skywars main
 
 execute as @a at @s run function game:entity/player/core
+execute as @e[tag=data,tag=data-player,type=marker] run function game:entity/data/core-player

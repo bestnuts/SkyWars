@@ -1,0 +1,1 @@
+kill @e[tag=data,tag=data-player,type=marker]
