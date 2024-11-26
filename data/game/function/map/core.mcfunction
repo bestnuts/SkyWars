@@ -1,0 +1,2 @@
+execute if score #mcp.state GameHandler matches 1 as @e[limit=1,tag=data,tag=data-mcp,type=marker] at @s run function game:map/system/loop-add
+execute if score #mcp.state GameHandler matches 2 as @e[limit=1,tag=data,tag=data-mcp,type=marker] at @s run function game:map/system/loop-remove
