@@ -1,0 +1,1 @@
+execute as @a[tag=game,team=] run function game:proceeding/system/arrangement/join-low

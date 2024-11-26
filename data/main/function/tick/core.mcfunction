@@ -1,7 +1,14 @@
+execute as @a[scores={Action.leave_game=1..}] run function package:init/join-player
+
 function game:map/core
+function game:proceeding/core
+
+bossbar set skywars:timer players @a[tag=game]
 
 execute as @a unless score @s PlayerID = @s PlayerID store result score @s PlayerID run function package:util/id/player
 data remove storage skywars main
+
+execute as @e[tag=object.ready,tag=team.select] at @s run function game:entity/object/etc/select/team/core
 
 execute as @a at @s run function game:entity/player/core
 execute as @e[tag=data,tag=data-player,type=marker] run function game:entity/data/core-player

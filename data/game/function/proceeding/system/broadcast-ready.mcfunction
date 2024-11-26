@@ -1,0 +1,1 @@
+tellraw @a ["",{"bold":true,"color":"gold","text":"[게임]: "},"게임 시작까지 ",{"score":{"name":"#timer.sec","objective":"GameHandler"}},"초 남았습니다."]

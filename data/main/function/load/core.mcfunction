@@ -2,6 +2,7 @@ function main:load/gamerule
 function main:load/game
 function main:load/score-objective
 function main:load/score-constant
+function main:load/bossbar
 
 function main:load/team-add
 function main:load/team-modify {color:"red",team:"RED"}

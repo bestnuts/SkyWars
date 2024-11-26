@@ -14,4 +14,6 @@ scoreboard objectives add WeaponID dummy
 scoreboard objectives add PlayerGameID dummy
 scoreboard objectives add ObjectID dummy
 
+scoreboard objectives add Action.leave_game custom:leave_game
+scoreboard objectives add Action.death deathCount
 scoreboard objectives add Action.used.carrot_on_a_stick used:carrot_on_a_stick

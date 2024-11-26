@@ -1,0 +1,1 @@
+kill @e[tag=object.weapon,type=#package:weapon]
