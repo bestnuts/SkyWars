@@ -34,7 +34,7 @@ gamerule maxCommandForkCount 65536
 gamerule maxEntityCramming 0
 gamerule mobExplosionDropDecay false
 gamerule mobGriefing false
-gamerule naturalRegeneration true
+gamerule naturalRegeneration false
 gamerule playersNetherPortalCreativeDelay 1
 gamerule playersNetherPortalDefaultDelay 80
 gamerule playersSleepingPercentage 100
