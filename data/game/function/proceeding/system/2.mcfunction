@@ -2,7 +2,7 @@ scoreboard players set #state GameHandler 3
 scoreboard players set #timer.tmp GameHandler 9600
 tag @a add game
 scoreboard players operation @a[tag=game] PlayerGameID = #id GameInfo
-kill @e[tag=object.ready,type=block_display]
+kill @e[tag=object.ready]
 function game:proceeding/system/arrangement/run
 function package:init/data-player
 execute if score #mode GameInfo matches 1 run function game:proceeding/system/ticket/run
