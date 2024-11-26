@@ -5,6 +5,7 @@ scoreboard players operation @a[tag=game] PlayerGameID = #id GameInfo
 kill @e[tag=object.ready]
 function game:proceeding/system/arrangement/run
 function package:init/data-player
+function game:proceeding/system/mode-selector
 execute if score #mode GameInfo matches 1 run function game:proceeding/system/ticket/run
 execute as @a[tag=game] run function game:proceeding/system/spawner/first
 tellraw @a ["",{"bold":true,"color":"gold","text":"[게임]: "},"시작되었습니다!"]
