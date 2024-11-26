@@ -8,6 +8,7 @@ scoreboard objectives add GameHandler dummy
 scoreboard objectives add GameInfo dummy
 
 scoreboard objectives add PlayerID dummy
+scoreboard objectives add TeamID dummy
 scoreboard objectives add MatchedID dummy
 scoreboard objectives add WeaponID dummy
 scoreboard objectives add PlayerGameID dummy
