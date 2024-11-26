@@ -1,0 +1,1 @@
+$data modify storage skywars main.value.data set from entity @s data.weapon.$(WeaponID)
