@@ -1,0 +1,1 @@
+tellraw @a ["",{"bold":true,"color":"gold","text":"[게임]: "},"섬멸전 순위가 공개되었습니다."]

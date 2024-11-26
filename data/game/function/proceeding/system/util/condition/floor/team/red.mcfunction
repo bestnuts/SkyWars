@@ -1,0 +1,1 @@
+execute store result score #floor.red GameInfo store result score #red Ranking run fill 18 -32 674 -3 -64 653 air replace red_wool
