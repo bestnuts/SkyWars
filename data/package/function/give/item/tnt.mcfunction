@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[item_model=tnt,item_name='{"color":"white","text":"투척 TNT"}',lore=['{"color":"yellow","italic":false,"text":"우클릭 시 바라보는 방향 포물선을 그리며 날아갑니다."}','{"color":"gold","italic":false,"text":"재장전 : 7초"}'],custom_data={WeaponID:0,WeaponName:"tnt",Weapon:true}] 1
+give @s carrot_on_a_stick[item_model=tnt,item_name='{"color":"white","text":"투척 TNT"}',lore=['{"color":"yellow","italic":false,"text":"우클릭 시 바라보는 방향으로 포물선을 그리며 날아갑니다."}','{"color":"gold","italic":false,"text":"재장전 : 7초"}'],custom_data={WeaponID:0,WeaponName:"tnt",Weapon:true}] 1
