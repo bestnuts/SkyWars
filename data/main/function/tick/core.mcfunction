@@ -13,3 +13,6 @@ execute as @e[tag=object.ready,tag=team.select] at @s run function game:entity/o
 execute as @a at @s run function game:entity/player/core
 execute as @e[tag=data,tag=data-player,type=marker] run function game:entity/data/core-player
 execute as @e[tag=object.weapon,type=#package:weapon] at @s run function game:entity/object/weapon/find
+
+effect give @a night_vision infinite 10 true
+effect give @a[tag=spector] weakness infinite 10 true
