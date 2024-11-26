@@ -1,0 +1,1 @@
+execute as @s[tag=missile] run function game:entity/object/weapon/missile/core

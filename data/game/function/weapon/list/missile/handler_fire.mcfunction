@@ -1,2 +1,2 @@
-say fire
+execute anchored eyes positioned ^ ^ ^ run function package:util/setup/object/missile/summon
 execute store result storage skywars main.value.data.cooltime int 1 run scoreboard players set #weapon.cooltime V 140

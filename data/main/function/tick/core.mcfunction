@@ -5,3 +5,4 @@ data remove storage skywars main
 
 execute as @a at @s run function game:entity/player/core
 execute as @e[tag=data,tag=data-player,type=marker] run function game:entity/data/core-player
+execute as @e[tag=object.weapon,type=#package:weapon] at @s run function game:entity/object/weapon/find
