@@ -5,7 +5,7 @@ execute if score #state GameHandler matches 0 run function game:proceeding/lobby
 function game:map/core
 function game:proceeding/core
 
-bossbar set skywars:timer players @a
+bossbar set skywars:timer players @a[tag=bossbar]
 
 execute as @a unless score @s PlayerID = @s PlayerID store result score @s PlayerID run function package:util/id/player
 data remove storage skywars main

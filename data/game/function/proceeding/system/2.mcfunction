@@ -1,6 +1,7 @@
 scoreboard players set #state GameHandler 3
 scoreboard players set #timer.tmp GameHandler 9600
 tag @a add game
+tag @a[tag=game] add bossbar
 scoreboard players operation @a[tag=game] PlayerGameID = #id GameInfo
 kill @e[tag=object.ready]
 function game:proceeding/system/arrangement/run
