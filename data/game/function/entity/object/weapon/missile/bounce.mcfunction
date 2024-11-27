@@ -1,0 +1,1 @@
+summon wind_charge ~ ~ ~ {acceleration_power:10d,Motion:[0.0,-0.5,0.0]}
