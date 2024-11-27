@@ -17,3 +17,5 @@ scoreboard objectives add ObjectID dummy
 scoreboard objectives add Action.leave_game custom:leave_game
 scoreboard objectives add Action.death deathCount
 scoreboard objectives add Action.used.carrot_on_a_stick used:carrot_on_a_stick
+
+execute unless score #state GameHandler = #state GameHandler run scoreboard players set #state GameHandler 0

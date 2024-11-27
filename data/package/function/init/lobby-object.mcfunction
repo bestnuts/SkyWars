@@ -1,2 +1,3 @@
 kill @e[tag=object.lobby]
+execute positioned 50.5 -24. 13.5 run summon text_display ~ ~ ~ {billboard:"fixed",alignment:"center",Rotation:[-135F,0F],Tags:["object.lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]},text:'[{"bold":false,"color":"aqua","text":"해당 위치로 전부 모여서 시작"}]',background:0}
 execute positioned 50.5 -22. 13.5 run summon text_display ~ ~ ~ {billboard:"fixed",alignment:"center",Rotation:[-135F,0F],Tags:["object.lobby"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,1f]},text:'[{"bold":true,"color":"white","text":"SkyWars"},{"bold":false,"color":"green","text":"\\n제작 : 베스트견과류"}]',background:0}

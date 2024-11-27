@@ -1,5 +1,7 @@
 execute as @a[scores={Action.leave_game=1..}] run function package:init/join-player
 
+execute if score #state GameHandler matches 0 run function game:proceeding/lobby/core
+
 function game:map/core
 function game:proceeding/core
 
