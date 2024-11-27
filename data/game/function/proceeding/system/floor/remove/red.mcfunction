@@ -1,0 +1,1 @@
+return run fill 18 -32 674 -3 -64 653 air replace red_wool

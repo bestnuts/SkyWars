@@ -1,1 +1,0 @@
-execute store result score #floor.yellow GameInfo store result score #yellow Ranking run fill 61 -32 653 82 -64 674 air replace yellow_wool

@@ -1,8 +1,8 @@
 scoreboard objectives add Ranking dummy
-function game:proceeding/system/util/condition/floor/team/red
-function game:proceeding/system/util/condition/floor/team/yellow
-function game:proceeding/system/util/condition/floor/team/green
-function game:proceeding/system/util/condition/floor/team/blue
+execute store result score #floor.red GameInfo store result score #red Ranking run function game:proceeding/system/floor/remove/red
+execute store result score #floor.yellow GameInfo store result score #yellow Ranking run function game:proceeding/system/floor/remove/yellow
+execute store result score #floor.green GameInfo store result score #green Ranking run function game:proceeding/system/floor/remove/green
+execute store result score #floor.blue GameInfo store result score #blue Ranking run function game:proceeding/system/floor/remove/blue
 scoreboard players set #v0 V 0
 data modify storage skywars main.value.rank.list set value [[],[],[],[]]
 function game:proceeding/system/util/condition/floor/calculate/loop
