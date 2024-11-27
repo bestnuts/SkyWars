@@ -1,6 +1,9 @@
 scoreboard players add #id GameInfo 1
 scoreboard players set #state GameHandler 1
 
+scoreboard players set #mode_1 GameHandler 0
+scoreboard players set #mode_2 GameHandler 0
+
 scoreboard players set #timer.tick GameHandler 0
 scoreboard players set #timer.sec GameHandler 30
 scoreboard players set #timer.min GameHandler 0
