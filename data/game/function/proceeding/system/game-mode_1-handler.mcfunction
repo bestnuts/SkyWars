@@ -1,0 +1,7 @@
+scoreboard players set #v0 V 0
+execute if score #ticket.red GameHandler matches ..0 unless entity @a[tag=game,team=RED] run scoreboard players add #v0 V 1
+execute if score #ticket.yellow GameHandler matches ..0 unless entity @a[tag=game,team=YELLOW] run scoreboard players add #v0 V 1
+execute if score #ticket.green GameHandler matches ..0 unless entity @a[tag=game,team=GREEN] run scoreboard players add #v0 V 1
+execute if score #ticket.blue GameHandler matches ..0 unless entity @a[tag=game,team=BLUE] run scoreboard players add #v0 V 1
+execute if score #v0 V matches 3.. run function game:proceeding/system/game-fast-end
+bossbar set skywars:timer name ["",{"nbt":"main.value.ui.timer.m","storage":"skywars","interpret": true},{"score":{"name":"#timer.min","objective":"GameHandler"}},"분 ",{"nbt":"main.value.ui.timer.s","storage":"skywars","interpret": true},{"score":{"name":"#timer.sec","objective":"GameHandler"}},"초"," | 남은 티켓 수 ",{"score":{"name":"#ticket.red","objective":"GameHandler"},"color":"red"}," : ",{"score":{"name":"#ticket.yellow","objective":"GameHandler"},"color":"yellow"}," : ",{"score":{"name":"#ticket.green","objective":"GameHandler"},"color":"green"}," : ",{"score":{"name":"#ticket.blue","objective":"GameHandler"},"color":"blue"}]

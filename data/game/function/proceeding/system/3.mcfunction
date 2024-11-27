@@ -1,4 +1,5 @@
 function game:proceeding/system/timer-logic
+execute if score #mode GameInfo matches 1 run function game:proceeding/system/game-mode_1-handler
 execute if score #timer.min GameHandler matches 5 if score #timer.sec GameHandler matches 0 if score #timer.tick GameHandler matches 0 run function game:proceeding/system/broadcast-progress
 execute if score #timer.min GameHandler matches 1 if score #timer.sec GameHandler matches 0 if score #timer.tick GameHandler matches 0 run function game:proceeding/system/broadcast-progress
 scoreboard players remove #timer.tmp GameHandler 1
