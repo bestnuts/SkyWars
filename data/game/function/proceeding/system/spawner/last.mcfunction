@@ -1,2 +1,2 @@
 function game:proceeding/system/spawner/first
-function game:proceeding/system/spawner/last/shared
+execute at @s run function game:proceeding/system/spawner/last/shared
