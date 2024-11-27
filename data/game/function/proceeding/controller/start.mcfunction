@@ -14,5 +14,6 @@ tellraw @a ["",{"bold":true,"color":"gold","text":"[게임]: "},{"color":"white"
 tellraw @a ["",{"bold":true,"color":"red","text":"[섬멸전]: "},{"color":"white","text":"상대방을 최대한 죽여 목숨 티켓을 소멸시키세요.","hoverEvent":{"action":"show_text","value":[{"text":"목숨 티켓은 팀 시작 인원수 : n\n(24/n) + n","color":"white"}]}}]
 tellraw @a ["",{"bold":true,"color":"red","text":"[소멸전]: "},{"color":"white","text":"게임이 종료될 때까지 최대한 많은 상대방의 바닥을 소멸시키세요.","hoverEvent":{"action":"show_text","value":[{"text":"게임이 종료된 후 남은 바닥 개수가 가장 높은 팀이 승리","color":"white"}]}}]
 function package:init/ready-object
+execute as @a run function package:init/player-vote-tag
 execute as @a run function package:teleport/game-spector
 function game:map/controller/start-copy_paste
