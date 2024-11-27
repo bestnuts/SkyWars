@@ -1,3 +1,4 @@
+tag @a remove matched.ignore
 scoreboard players operation #v0 V = @s MatchedID
 execute as @a if score @s PlayerID = #v0 V run tag @s add matched.origin
 execute as @a[distance=..1.25,tag=matched.origin] at @s run function game:entity/object/weapon/missile/bounce

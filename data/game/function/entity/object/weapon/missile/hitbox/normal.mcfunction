@@ -1,0 +1,1 @@
+summon interaction ~ ~ ~ {Tags:["hitbox"],height:1.8f,width:1f}
